@@ -1563,6 +1563,98 @@ export default function ItineraryDayTimeline({
                   {t("itineraryDayThree.cityCenter.googleMaps")}
                 </ResourceLink>
               </div>
+              <section
+                aria-labelledby="ASOBOY!-specials-title"
+                className="mt-8 border-t border-slate-200 pt-7"
+              >
+                <h4 id="ASOBOY!-specials-title" className="text-xl font-bold text-slate-800 sm:text-2xl">
+                  {t("itineraryDayFour.Asoboy!.specialsTitle")}
+                </h4>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Asoboy!.box.name")}
+                  </h5>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/box.png"
+                        alt={t("itineraryDayFour.Asoboy!.box.imageAlt")}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t("itineraryDayFour.Asoboy!.box.description")}
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article className="mt-8 border-t border-slate-200 pt-7">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Asoboy!.cafe.name")}
+                  </h5>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/cafe.png"
+                        alt={t("itineraryDayFour.Asoboy!.cafe.imageAlt")}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t("itineraryDayFour.Asoboy!.cafe.description")}
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article className="mt-8 border-t border-slate-200 pt-7">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Asoboy!.free-space.name")}
+                  </h5>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/free-space.png"
+                        alt={t("itineraryDayFour.Asoboy!.free-space.imageAlt")}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t("itineraryDayFour.Asoboy!.free-space.description")}
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article className="mt-8 border-t border-slate-200 pt-7">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Asoboy!.kuro-club.name")}
+                  </h5>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/kuro-club.png"
+                        alt={t("itineraryDayFour.Asoboy!.kuro-club.imageAlt")}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t("itineraryDayFour.Asoboy!.kuro-club.description")}
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </section>
             </article>
           </li>
         </ol>

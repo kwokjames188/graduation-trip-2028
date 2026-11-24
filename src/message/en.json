@@ -377,7 +377,28 @@
         "duration": "1.5 hrs",
         "imageAlt": "ASO BOY!",
         "description": "ASO BOY! is a joyful JR Kyushu sightseeing train traveling between Kumamoto and Miyaji across the scenic Mount Aso caldera. Designed for families, it features adorable dog mascot Kuro, panoramic front-row windows, white parent-and-child seating, a wooden ball pit, a library corner, and an onboard café serving local treats.",
-        "googleMaps": "Google Maps"
+        "googleMaps": "Google Maps",
+        "specialsTitle": "Onboard facilities",
+        "box": {
+          "name": "Boxes Seat",
+          "imageAlt": "ASO BOY! Boxes Seat",
+          "description": "Located in car 2, four colorful checkered seats face each other across a white table beside a wide window, decorated with green curtains and charming Kuro mascot artwork, perfect for family or group travel."
+        },
+        "cafe": {
+          "name": "Cafe",
+          "imageAlt": "ASO BOY! Cafe",
+          "description": "The onboard café on ASO BOY! located in car 3, offers a selection of local bentos, beverages, desserts and souvenirs, perfect for enjoying while taking in the scenic views."
+        },
+        "free-space": {
+          "name": "Free Space",
+          "imageAlt": "ASO BOY! Free Space",
+          "description": "Three common spaces located in car 1, 2 & 4 with different designs, are casual spaces featuring a counter facing the window—perfect for taking a break, enjoying a meal, or having a coffee."
+        },
+        "kuro-club": {
+          "name": "Kuro Club",
+          "imageAlt": "ASO BOY! Kuro Club",
+          "description": "The Kuro Club is a dedicated space for children and families, featuring interactive games, coloring activities, and a cozy seating area with Kuro mascot decorations."
+        }
       }
     },
     "spotsTitle": "Top Spots & Food",

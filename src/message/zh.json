@@ -377,7 +377,28 @@
         "duration": "1.5 小時",
         "imageAlt": "ASO BOY!",
         "description": "「阿蘇男孩!」是 JR 九州的一列觀光列車，行駛於熊本與宮地之間，途經風景優美的阿蘇山火山口（破火山口）地帶。這列專為家庭設計的列車，以可愛的狗狗吉祥物「小黑（Kuro）」為主題，車內設有全景觀景窗、白色的親子座席、木製球池、圖書角落，以及供應在地特色點心的車上咖啡座。",
-        "googleMaps": "Google Maps"
+        "googleMaps": "Google Maps",
+        "specialsTitle": "車內設施",
+        "box": {
+          "name": "卡位",
+          "imageAlt": "ASO BOY! Boxes Seat",
+          "description": "位於第 2 節車廂，寬大的車窗旁設有四個色彩繽紛的格紋座位，圍繞著一張白色桌子相對而坐；窗邊裝飾著綠色窗簾及可愛的「Kuro」吉祥物圖案，非常適合家庭或團體出遊。"
+        },
+        "cafe": {
+          "name": "餐車",
+          "imageAlt": "ASO BOY! Cafe",
+          "description": "「阿蘇男孩!」的車上咖啡座位於第 3 節車廂，提供一系列在地便當、飲料、甜點和紀念品，是欣賞風景時享受美食的理想選擇。"
+        },
+        "free-space": {
+          "name": "自由空間",
+          "imageAlt": "ASO BOY! Free Space",
+          "description": "位於第 1、2 和 4 節車廂的三個共用空間，設計各異，是休憩、用餐或享用咖啡的理想場所。"
+        },
+        "kuro-club": {
+          "name": "Kuro Club",
+          "imageAlt": "ASO BOY! Kuro Club",
+          "description": "Kuro Club 是專為兒童與家庭打造的空間，設有互動遊戲、著色活動，以及點綴著 Kuro 吉祥物裝飾的舒適休憩區。"
+        }
       }
     },
     "spotsTitle": "必去景點與美食",
