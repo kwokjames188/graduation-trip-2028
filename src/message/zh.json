@@ -1,0 +1,387 @@
+{
+  "Nav": {
+    "brand": "畢業旅行2028",
+    "home": "行程總覽",
+    "itinerary": "每日行程",
+    "spots": "必去景點",
+    "budget": "預算估算",
+    "rsvp": "其他",
+    "backToTop": "回到頁首"
+  },
+  "Home": {
+    "badge": "畢業旅行正式提案",
+    "title": "畢業旅行2028：九州與廣島",
+    "subtitle": "14 天的世界遺產、自然景觀與傳統美食之旅。",
+    "cta": "查看詳細行程",
+    "highlights": {
+      "title": "旅程亮點",
+      "readMore": "了解更多",
+      "miyajima": {
+        "title": "宮島",
+        "description": "欣賞經典的海上大鳥居、漫步森林步道，感受瀨戶內海寧靜迷人的景色。"
+      },
+      "kumamotoCastle": {
+        "title": "熊本城",
+        "description": "探索日本數一數二的名城，再到熊本市中心感受熱鬧街區並品嚐當地特色美食。"
+      },
+      "mojiko": {
+        "title": "門司港懷舊區",
+        "description": "漫步於充滿風情的歷史港區，欣賞保存完好的建築，並眺望關門海峽。"
+      },
+      "inasayama": {
+        "title": "稻佐山",
+        "description": "從山頂飽覽長崎全景，日落後港灣周邊的璀璨燈火更是不容錯過。"
+      }
+    },
+    "flights": {
+      "title": "航班",
+      "outbound": "去程",
+      "inbound": "回程",
+      "outboundDate": "6月30日（週五）",
+      "inboundDate": "7月13日（週四）",
+      "outboundDuration": "3 小時 15 分鐘",
+      "inboundDuration": "4 小時"
+    },
+    "countdown": {
+      "title": "出發只剩下 {days} 天！",
+      "departure": "距離 2028 年 6 月 30 日 09:30（GMT+8）起飛",
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "seconds": "秒",
+      "complete": "出發時間到了！"
+    },
+    "footer": {
+      "brand": "畢業旅行2028",
+      "tagline": "九州與廣島",
+      "wish": "祝旅途愉快！",
+      "navigation": "頁尾導航",
+      "itinerary": "每日行程",
+      "spots": "必去景點",
+      "budget": "預算估算",
+      "rsvp": "其他",
+      "copyright": "@kwokjames188"
+    }
+  },
+  "Pages": {
+    "itineraryTitle": "每日行程安排",
+    "itineraryDateNav": "旅行日期",
+    "itineraryDayLabel": "第 {day} 天",
+    "itineraryScheduleComingSoon": "每日行程即將推出。",
+    "itineraryNextDay": "前往第 2 天行程",
+    "itineraryNextDayThree": "前往第 3 天行程",
+    "itineraryNextDayFour": "前往第 4 天行程",
+    "itineraryTimeRequired": "所需時間：{duration}",
+    "itineraryDayOne": {
+      "title": "第 1 天：抵達廣島與和平紀念公園",
+      "airport": {
+        "title": "廣島機場",
+        "duration": "約 30 分鐘",
+        "description": "廣島機場位於廣島市中心以東約 50 公里處，連接廣島與日本及亞洲各大城市。機場雖未與鐵路直接相連，但旅客仍可輕鬆搭乘巴士往返機場與廣島市中心，前往市中心各主要景點與活動地點。",
+        "usefulInformation": "實用資訊",
+        "bus": "巴士",
+        "googleMaps": "Google 地圖"
+      },
+      "cityCenter": {
+        "title": "廣島市區",
+        "duration": "約 3 小時",
+        "description": "廣島市是廣島縣的首府，也是日本第十大城市。1945 年 8 月 6 日原子彈轟炸後，廣島以「和平之城」的面貌重建，融合了二戰紀念景點、城堡、庭園、路面電車與在地飲食文化。",
+        "imageAlt": "河畔的廣島市景與原爆圓頂館",
+        "relatedSite": "相關網站",
+        "googleMaps": "Google 地圖",
+        "sightseeingSpotsTitle": "觀光景點",
+        "spots": {
+          "atomicBombDome": {
+            "title": "原爆圓頂館",
+            "walkFrom": "從原爆圓頂館前站步行約 1 分鐘",
+            "duration": "15–30 分鐘",
+            "description": "原爆圓頂館是廣島一棟在 1945 年 8 月 6 日人類首次遭受原子彈轟炸後留下的建築遺跡。它於 1996 年列入聯合國教科文組織世界遺產，象徵核裁軍與持久和平。",
+            "imageAlt": "保存至今的廣島原爆圓頂館"
+          },
+          "peaceMuseum": {
+            "title": "廣島和平紀念資料館",
+            "walkFrom": "從原爆圓頂館步行約 7 分鐘",
+            "duration": "1–2 小時",
+            "description": "廣島和平紀念資料館記錄 1945 年 8 月 6 日的原子彈轟炸歷史，並致力倡議廢除核武。館內展示受難者遺物、歷史照片與倖存者證言。",
+            "imageAlt": "廣島和平紀念資料館"
+          }
+        }
+      },
+      "dinner": {
+        "title": "晚餐",
+        "restaurant": "御好燒みっちゃん總本店－折鶴塔",
+        "walkDuration": "7 分鐘",
+        "description": "御好燒みっちゃん總本店創立於 1950 年，是歷史悠久的老店，並以開創現代廣島風御好燒聞名；特色包括麵條、特製醬汁，以及用鏟子享用。",
+        "imageAlt": "折鶴塔內的みっちゃん總本店店內",
+        "relatedSite": "相關網站",
+        "googleMaps": "Google 地圖",
+        "otherOptionTitle": "其他用餐選擇",
+        "otherOptionName": "御好村",
+        "otherOptionWalkDuration": "從廣島和平紀念資料館步行約 15 分鐘",
+        "otherOptionImageAlt": "廣島御好村大樓",
+        "otherOptionDescription": "御好村是位於日本廣島市中區、以美食為主題的知名大樓，匯集了 20 多間專門提供道地廣島風御好燒的餐廳。這裡承襲戰後屋台文化，源自戰後出現的露天攤販，如今店家集中在新天地廣場大樓的 2 至 4 樓。"
+      },
+      "hotel": {
+        "title": "住宿",
+        "name": "廣島格蘭比亞大酒店",
+        "travelDuration": "20 分鐘",
+        "description": "廣島格蘭比亞大酒店是位於日本廣島市南區的四星級飯店，隸屬於 JR 西日本大飯店集團。飯店最大特色是與 JR 廣島站（新幹線閘口）無縫連接，旅客可從車站二樓通道直接抵達飯店大廳，交通十分便利。",
+        "imageAlt": "與廣島車站相連的廣島格蘭比亞大酒店",
+        "relatedSite": "相關網站",
+        "googleMaps": "Google 地圖",
+        "otherOptionsTitle": "其他住宿選項",
+        "otherOptions": {
+          "southGate": {
+            "name": "廣島格蘭比亞大酒店南口",
+            "imageAlt": "鄰近廣島車站的廣島格蘭比亞大酒店南口",
+            "description": "廣島格蘭比亞大酒店南門是於 2025 年 3 月開幕的四星級飯店，可直接通往 JR 廣島站南口及全新的車站大樓。客房採用木地板與廣島在地品牌家具。飯店設有主打瀨戶內海食材的餐廳；提供當地新鮮海產的早餐自助餐深受住客好評。"
+          },
+          "rihga": {
+            "name": "廣島麗嘉皇家酒店",
+            "walkFrom": "從折鶴塔步行約 7 分鐘",
+            "imageAlt": "俯瞰廣島市景的廣島麗嘉皇家酒店",
+            "description": "廣島里士滿皇家酒店是位於廣島市中心的地標性五星級高樓飯店。飯店座落於基町，可輕鬆步行前往原爆圓頂館、和平紀念公園、廣島城與紙屋町地下街。搭乘路面電車和渡輪前往宮島也十分方便。"
+          }
+        }
+      },
+      "travelDuration": "50 分鐘"
+    },
+    "itineraryDayTwo": {
+      "title": "第 2 天：海上大鳥居，日本三景",
+      "breakfast": {
+        "title": "早餐",
+        "hotel": "廣島格蘭比亞大酒店",
+        "description": "廣島格蘭比亞大酒店提供日式與西式自助早餐，選用廣島及瀨戶內海的在地食材，於 Café & Buffet Dish Parade 供應；符合資格的住客亦可於 Granvia Lounge 享用。"
+      },
+      "trainDuration": "25 分鐘",
+      "ferryDuration": "10 分鐘",
+      "stationName": "宮島口",
+      "miyajima": {
+        "title": "宮島",
+        "duration": "6–8 小時",
+        "imageAlt": "宮島海上的嚴島神社大鳥居",
+        "description": "宮島（嚴島）是日本廣島灣一座美麗的島嶼，也是日本三景之一。島上以列入聯合國教科文組織世界遺產的嚴島神社，以及彷彿漂浮海上的朱紅色大鳥居聞名；還有神聖的彌山、自在漫步的友善鹿群、絢爛紅葉與新鮮廣島牡蠣。",
+        "relatedSite": "相關網站",
+        "googleMaps": "Google 地圖",
+        "sightseeingOptionsTitle": "觀光選項",
+        "omotesando": {
+          "title": "宮島表參道商店街",
+          "walkFrom": "從渡輪碼頭步行約 5 分鐘",
+          "duration": "15–45 分鐘",
+          "imageAlt": "宮島表參道商店街的店家街景",
+          "description": "宮島表參道商店街是位於嚴島、全長約 350 公尺的熱鬧有頂商店街，連接渡輪碼頭與嚴島神社。街上約有 70 間商店與攤位，以紅葉饅頭、炭烤廣島牡蠣、星鰻及傳統飯勺聞名。"
+        },
+        "itsukiCoffee": {
+          "title": "伊都岐珈琲",
+          "duration": "10–20 分鐘",
+          "imageAlt": "位於表參道商店街的伊都岐珈琲店",
+          "description": "這是廣島縣宮島唯一的精品咖啡專門店。他們只選用品質高且稀有的精品咖啡豆，並於店內烘焙。店家格外講究豆子的鮮度，因為這會大幅影響風味；店主每天清晨都會親自在店內烘焙新鮮咖啡豆。"
+        },
+        "toyokuni": {
+          "title": "豐國神社（千疊閣）",
+          "walkFrom": "從渡輪碼頭步行約 7 分鐘",
+          "duration": "15–45 分鐘",
+          "imageAlt": "宮島的豐國神社千疊閣與五重塔",
+          "description": "千疊閣（豐國神社）是宮島最大的木造建築，由豐臣秀吉於 1587 年興建，最後以沒有牆壁的開放式設計未完工。旁邊矗立著建於 1407 年的五重塔，融合日本與中國風格，從山丘上可眺望嚴島神社，景色十分壯麗。"
+        },
+        "itsukushima": {
+          "title": "嚴島神社",
+          "walkFrom": "從渡輪碼頭步行約 8 分鐘",
+          "duration": "1–1.5 小時",
+          "imageAlt": "朱紅色社殿與海上的嚴島神社大鳥居",
+          "description": "嚴島神社是位於日本宮島的聯合國教科文組織世界遺產神社，以漲潮時彷彿漂浮海上的巨大朱紅色鳥居聞名。神社於 1168 年擴建，建於海上的木造社殿與迴廊供奉海神；退潮時，遊客可以步行到鳥居旁。"
+        }
+      },
+      "kakiya": {
+        "title": "午餐",
+        "name": "牡蠣屋",
+        "walkDuration": "步行約 5 分鐘",
+        "imageAlt": "宮島牡蠣專門餐廳牡蠣屋的入口",
+        "description": "牡蠣屋是位於廣島宮島表參道商店街的知名牡蠣專門餐廳，曾獲《米其林指南》推薦，專門供應飽滿的地御前牡蠣，料理方式包括炭烤、炸牡蠣、油漬與牡蠣飯。餐廳不接受預約，設有可容納 3,000 瓶酒的酒窖，當日牡蠣售完便會打烊。"
+      },
+      "misen": {
+        "title": "深入彌山",
+        "walkDuration": "步行約 10 分鐘",
+        "duration": "2–3 小時",
+        "imageAlt": "彌山矗立於宮島海岸線後方，海上可見漂浮的大鳥居",
+        "descriptionLead": "彌山（Mount Misen）",
+        "description": "是位於日本廣島宮島、海拔 535 公尺的神聖最高峰。自 806 年弘法大師在此開創修行以來，彌山便深受敬仰。山上有古老寺堂、巨大的花崗岩巨石，以及受保護的原始森林。遊客可以沿景色優美的步道健行，或搭乘纜車飽覽瀨戶內海全景。",
+        "sightseeingOptionsTitle": "觀光景點",
+        "momijidani": {
+          "title": "紅葉谷公園",
+          "walkFrom": "從牡蠣屋步行約 10 分鐘",
+          "duration": "15 分鐘",
+          "imageAlt": "綠意盎然的紅葉谷公園與朱紅色橋梁",
+          "description": "夏日的紅葉谷公園化身為彌山山腳下翠綠茂密的靜謐天地。近 700 棵青翠的楓樹覆蓋山谷，為寧靜的石徑與經典的朱紅色橋梁遮蔭。潺潺紅葉谷川升起的涼爽水霧，加上自在漫步的梅花鹿，營造出令人神清氣爽的避暑勝地。"
+        },
+        "ropeway": {
+          "title": "宮島纜車",
+          "walkFrom": "從紅葉谷公園步行約 5 分鐘",
+          "duration": "30 分鐘",
+          "imageAlt": "俯瞰瀨戶內海的宮島纜車車廂",
+          "description": "位於日本廣島的宮島纜車，可由紅葉谷公園搭乘景色優美的兩段式纜車登上彌山。全程約十四分鐘，旅客須在榧谷站轉乘，抵達獅子岩站前可欣賞原始森林、瀨戶內海及周邊島嶼的全景，沿途登山步道可繼續深入。"
+        },
+        "shishiiwa": {
+          "title": "獅子岩展望台",
+          "walkFrom": "從獅子岩站步行約 1 分鐘",
+          "duration": "10 分鐘",
+          "imageAlt": "宮島獅子岩展望台石碑與展望景色",
+          "description": "獅子岩展望台位於日本廣島宮島，海拔 433 公尺，緊鄰宮島纜車終點站。遊客可輕鬆飽覽瀨戶內海、廣島灣及周邊島嶼的全景，同時也是步行約 30 分鐘前往彌山山頂登山步道的起點。"
+        },
+        "hondo": {
+          "title": "彌山本堂",
+          "walkFrom": "從獅子岩站步行約 20 分鐘",
+          "duration": "15–30 分鐘",
+          "imageAlt": "彌山山頂附近的彌山本堂",
+          "description": "彌山本堂位於廣島宮島彌山山頂附近。806 年由佛教僧侶弘法大師（空海）建立為大聖院的一部分，供奉虛空藏菩薩。建築在 1991 年颱風後重建，可從獅子岩纜車站步行 20 分鐘抵達。"
+        },
+        "summit": {
+          "title": "彌山山頂",
+          "walkFrom": "從彌山本堂步行約 10 分鐘",
+          "duration": "15 分鐘",
+          "imageAlt": "彌山山頂展望台與瀨戶內海景觀",
+          "description": "彌山展望台位於日本廣島宮島海拔 535 公尺的山頂，由建築師三分一博志重新設計，這座獲《米其林指南》三星評價的木造建築設有遮蔭休憩區和可俯瞰瀨戶內海的 360 度屋頂平台。遊客可搭乘宮島纜車後健行約 30 分鐘抵達，或沿山景步道攀登。"
+        },
+        "indoorAlternativeTitle": "室內替代方案",
+        "aquarium": {
+          "title": "宮島水族館「Miyaji Marine」",
+          "walkFrom": "從宮島表參道商店街步行約 10 分鐘",
+          "duration": "1.5–2 小時",
+          "imageAlt": "宮島水族館 Miyaji Marine 的入口",
+          "description": "這座水族館位於世界遺產嚴島神社所在的宮島。館內展示包括魚類與哺乳類在內的 380 稱、約 15,000 隻海洋生物。亮點包括瀨戶內海棲息的江豚展示水槽，以及重現宮島潮間帶與廣島里山景觀的區域，設有許多在地主題展品。"
+        }
+      },
+      "shopping": {
+        "title": "宮島最後的購物時光",
+        "walkDuration": "步行約 10 分鐘",
+        "duration": "一小時內",
+        "imageAlt": "宮島表參道商店街",
+        "description": "搭乘渡輪返回前，先悠閒漫步於表參道商店街。可選購現烤熱騰騰的紅葉饅頭、在地牡蠣，以及傳統宮島雕刻木製工藝品或飯杓。多數商店營業至下午晚些時候，讓快速購買紀念品既方便、熱鬆又充滿島嶼風情。"
+      },
+      "dinner": {
+        "title": "晚餐",
+        "name": "尾道拉麵 三公",
+        "walkFrom": "從縣廳前站步行約 2 分鐘",
+        "ferryDuration": "10 分鐘",
+        "trainDuration": "28 分鐘",
+        "changeStation": "宮島口",
+        "imageAlt": "尾道拉麵三幸的店面入口",
+        "descriptionLead": "James 私心推薦",
+        "description": "，尾道拉麵 三公，正宗瀨戶內海風味帶到市中心。店內鹹香的醬油湯底融合雞肉、柴魚與濃郁豬背脂，並以九條蔥聞名；可免費獨立加上一大盤新鮮九條蔥。",
+        "googleMaps": "Google 地圖"
+      }
+    },
+    "itineraryDayThree": {
+      "title": "第 3 天：熊本城、日本三大名城",
+      "breakfast": {
+        "title": "早餐",
+        "hotel": "廣島格蘭比亞大酒店",
+        "hotelCheckout": "酒店退房",
+        "description": "廣島格蘭比亞大酒店提供日式與西式自助早餐，選用廣島及瀨戶內海的在地食材，於 Café & Buffet Dish Parade 供應；符合資格的住客亦可於 Granvia Lounge 享用。",
+        "alternative": {
+          "title": "替代方案",
+          "name": "新幹線上的便當",
+          "description": "便當是在車站販售的地方特色日式便當，供搭乘新幹線等長途列車時享用。每個便當都選用當地食材，例如海鮮、牛肉或當季配菜，並特別講究常溫下的風味。請在上車前購買，列車出發後再開啟，邊享用便當邊欣賞沿途景色。"
+        }
+      },
+      "cityCenter": {
+        "title": "熊本市中心",
+        "trainDuration": "搭乘新幹線 1 小時 40 分鐘",
+        "duration": "6–8 小時",
+        "imageAlt": "熊本城矗立於街道與路面電車後方",
+        "description": "雄偉的熊本城是熊本市中心的核心，這裡將封建時代的歷史與現代都市活力完美融合。復古路面電車穿梭於上通、下通等熱鬧的有頂商店街，引領遊客從武家時代的建築與寧靜的水前寺成趣園，走向充滿濃郁豚骨拉麵與在地熱情的活力巷弄。",
+        "googleMaps": "Google 地圖",
+        "sightseeingOptionsTitle": "觀光景點",
+        "castle": {
+          "title": "熊本城",
+          "walkFrom": "從花畑町站步行約 8 分鐘",
+          "duration": "2 小時",
+          "imageAlt": "黑色城牆與多層瓦頂的熊本城",
+          "description": "熊本城位於日本九州，是全國三大名城之一。城堡於 1607 年由武將加藤清正完成，擁有標誌性的黑色城牆、城樓，以及陡峭而帶弧度、名為武者返的石牆。熊本城歷經火災與大地震，持續進行修復工作，如今仍象徵武士精神與重建韌性。"
+        }
+      },
+      "lunch": {
+        "title": "午餐",
+        "name": "櫻之馬場 城彩苑",
+        "walkDuration": "3 分鐘",
+        "imageAlt": "櫻之馬場城彩苑的傳統飲食與手工藝店",
+        "description": "在熊本城腳下的櫻之馬場城彩苑享用午餐，彷彿置身江戶時代。漫步櫻小路，品嚐柔嫩的赤牛丼、新鮮馬刺與酥脆海膽可樂餅等熊本在地美食，再以甜美的いきなり團子結束，讓午間休憩充滿正宗風味。",
+        "otherOptionsTitle": "其他選擇",
+        "optionsTitle": "選擇",
+        "options": {
+          "name": "菅乃屋 熊本城彩苑櫻之小路店",
+          "location": "位於櫻之馬場城彩苑內",
+          "imageAlt": "櫻之馬場城彩苑內的菅乃屋櫻之小路店",
+          "description": "菅乃屋櫻之小路店是熊本知名馬肉專門店旗下的外帶與伴手禮商店。無需預約即可邊走邊吃，店內提供新鮮櫻馬拖壽司、酥脆馬肉炸肉餅、咖哩麵包，以及真空包裝的馬刺し伴手禮。"
+        },
+        "otherOptions": {
+          "name": "馬刺與內臟燒烤 肉大將",
+          "walkFrom": "從水道筋站步行約 3 分鐘",
+          "imageAlt": "馬刺與內臟燒烤 肉大將餐廳",
+          "description": "馬刺與內臟燒烤 肉大將提供豐富的熊本馬肉套餐，包括招牌花瓣重（馬刺飯盒）、馬肉壽喜燒及燉馬肉漢堡排。用餐時段亦可享用折扣飲品與小食。"
+        }
+      },
+      "garden": {
+        "title": "水前寺成趣園",
+        "tramDuration": "20 分鐘",
+        "duration": "1–1.5 小時",
+        "imageAlt": "水前寺成趣園池塘與富士山縮景",
+        "description": "熊本的水前寺成趣園是由細川氏於 17 世紀建立的桃山式迴遊庭園，由阿蘇山湧出的清澈泉水滋養。修剪整齊的草坪、松樹與浮石微縮再現著名的東海道景觀，其中包括人工富士山與寧靜茶室。",
+        "indoorAlternativeTitle": "室內替代方案",
+        "kumamon": {
+          "title": "熊本熊廣場",
+          "walkFrom": "從水道町站步行約 2 分鐘",
+          "duration": "0.5–1.5 小時",
+          "imageAlt": "熊本熊廣場中的熊本熊公仔",
+          "description": "熊本熊廣場是熊本人氣吉祥物熊本熊的活力據點。遊客可欣賞 360 度舞台上的每日活力舞蹈表演，也可在主題咖啡廊品嚐熊本水果聖代與熊本熊拉花咖啡、選購限定商品、體驗互動式 AR 遊戲，並參觀熊本熊的官方營業部長室。"
+        }
+      },
+      "dinner": {
+        "title": "晚餐",
+        "name": "熊本拉麵 黑亭 下通店",
+        "tramDuration": "16 分鐘",
+        "imageAlt": "熊本拉麵 黑亭 下通店門面",
+        "description": "熊本拉麵黑亭下通店將自 1957 年延續至今的料理傳統帶到熊本市中心。招牌玉子拉麵以濃郁豬頭骨湯與煙燻烤蒜油搭配自製中粗麵條及兩顆新鮮蛋黃，呈現層次豐富、口感絲滑的一碗。"
+      },
+      "accommodation": {
+        "title": "住宿",
+        "name": "THE BLOSSOM 熊本",
+        "tramDuration": "搭乘路面電車 16 分鐘",
+        "imageAlt": "黃昏時的 THE BLOSSOM 熊本與 JR 熊本站",
+        "description": "THE BLOSSOM 熊本是與 JR 熊本站及 AMU Plaza 熊本直接連通的四星級飯店。飯店位於 9 至 12 樓，共有 203 間寬敞客房，可俯瞰市區與山景。住客可享用天然地下水大眾浴池、桑拿、24 小時健身房及九州特色自助餐。",
+        "otherOptionsTitle": "其他住宿選項",
+        "ana": {
+          "name": "ANA Crowne Plaza Hotel 熊本新天空",
+          "walkFrom": "距離祇園橋站約 3 分鐘",
+          "imageAlt": "ANA Crowne Plaza Hotel 熊本新天空",
+          "description": "ANA Crowne Plaza 熊本新天空是一間位於熊本市中心河畔的 25 層飯店，距離 JR 熊本站步行約 8 分鐘。飯店提供寬敞客房、白川河景、熊本熊主題套房及在地風味早餐自助餐，旁邊即有路面電車與機場巴士站，方便市區觀光。"
+        },
+        "nikko": {
+          "name": "熊本日航飯店",
+          "walkFrom": "距離通町筋站步行約 2 分鐘",
+          "imageAlt": "黃昏時的熊本日航飯店",
+          "description": "熊本日航飯店位於熊本市中心，毗鄰通町筋路面電車站，步行即可抵達熊本城。飯店於 2022 年翻新，191 間全禁煙客房可欣賞城堡或山景，並設有多樣餐飲選擇，適合休閒及商務旅客。"
+        }
+      }
+    },
+    "itineraryDayFour": {
+      "title": "第 4 天：阿蘇火山與觀光列車「ASO BOY!」",
+      "breakfast": {
+        "title": "早餐",
+        "hotel": "THE BLOSSOM 熊本",
+        "walkDuration": "站內",
+        "description": "THE BLOSSOM 熊本位於9樓的「千山萬水」餐廳，供應日西式自助早餐。餐點嚴選熊本在地新鮮食材，特色菜色包括鯛魚茶泡飯、馬肉咖哩、芥末蓮藕、烤牛肉、可頌麵包以及阿蘇鮮乳。"
+      },
+      "Asoboy!": {
+        "title": "阿蘇男孩!",
+        "duration": "1.5 小時",
+        "imageAlt": "ASO BOY!",
+        "description": "「阿蘇男孩!」是 JR 九州的一列觀光列車，行駛於熊本與宮地之間，途經風景優美的阿蘇山火山口（破火山口）地帶。這列專為家庭設計的列車，以可愛的狗狗吉祥物「小黑（Kuro）」為主題，車內設有全景觀景窗、白色的親子座席、木製球池、圖書角落，以及供應在地特色點心的車上咖啡座。",
+        "googleMaps": "Google Maps"
+      }
+    },
+    "spotsTitle": "必去景點與美食",
+    "budgetTitle": "旅費預算估算",
+    "rsvpTitle": "其他"
+  }
+}

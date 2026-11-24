@@ -1,0 +1,387 @@
+{
+  "Nav": {
+    "brand": "GRADUATION TRIP 2028",
+    "home": "Overview",
+    "itinerary": "Itinerary",
+    "spots": "Top Spots",
+    "budget": "Budget",
+    "rsvp": "Others",
+    "backToTop": "Back to top"
+  },
+  "Home": {
+    "badge": "OFFICIAL PROPOSAL",
+    "title": "Graduation Trip 2028: Kyushu & Hiroshima",
+    "subtitle": "14 days of world heritages, natural landscapes, and traditional cuisines.",
+    "cta": "Explore Itinerary",
+    "highlights": {
+      "title": "Highlights",
+      "readMore": "Read More",
+      "miyajima": {
+        "title": "Miyajima Island",
+        "description": "See the iconic floating torii gate, wander forested trails, and take in peaceful views across the Seto Inland Sea."
+      },
+      "kumamotoCastle": {
+        "title": "Kumamoto Castle",
+        "description": "Explore one of Japan’s most impressive castles, then enjoy lively streets and local specialties in the heart of Kumamoto."
+      },
+      "mojiko": {
+        "title": "Mojiko Retro",
+        "description": "Stroll through a charming historic port district, admire its preserved architecture, and enjoy views across the Kanmon Strait."
+      },
+      "inasayama": {
+        "title": "Mt. Inasa",
+        "description": "Take in sweeping views of Nagasaki from the summit, especially after sunset when the city lights sparkle across the harbor."
+      }
+    },
+    "flights": {
+      "title": "Flights",
+      "outbound": "Outbound",
+      "inbound": "Inbound",
+      "outboundDate": "30 JUN, Fri",
+      "inboundDate": "13 JUL, Thu",
+      "outboundDuration": "3 hours 15 minutes",
+      "inboundDuration": "4 hours"
+    },
+    "countdown": {
+      "title": "Only {days} days left until departure!",
+      "departure": "Until takeoff · June 30, 2028 at 09:30 (GMT+8)",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "complete": "It’s time to go!"
+    },
+    "footer": {
+      "brand": "GRADUATION TRIP 2028",
+      "tagline": "Kyushu & Hiroshima",
+      "wish": "Have a pleasant trip!",
+      "navigation": "Footer navigation",
+      "itinerary": "Itinerary",
+      "spots": "Top Spots",
+      "budget": "Budget",
+      "rsvp": "Others",
+      "copyright": "@kwokjames188"
+    }
+  },
+  "Pages": {
+    "itineraryTitle": "Day-by-Day Itinerary",
+    "itineraryDateNav": "Trip dates",
+    "itineraryDayLabel": "Day {day}",
+    "itineraryScheduleComingSoon": "Schedule coming soon...",
+    "itineraryNextDay": "Continue to Day 2",
+    "itineraryNextDayThree": "Continue to Day 3",
+    "itineraryNextDayFour": "Continue to Day 4",
+    "itineraryTimeRequired": "Time required: {duration}",
+    "itineraryDayOne": {
+      "title": "Day 1: Arrival in Hiroshima & Peace Memorial Park",
+      "airport": {
+        "title": "Hiroshima Airport",
+        "duration": "30~ min",
+        "description": "Hiroshima Airport is located approximately 50 kilometers east of Hiroshima City Center, connecting travelers with Hiroshima and major cities in Japan & Asia. Although there is no direct railway link, visitors can still easily opt for the bus lines that connect the airport to Hiroshima city center to all of its centrally located sights and activities.",
+        "usefulInformation": "Useful information",
+        "bus": "Bus",
+        "googleMaps": "Google Maps"
+      },
+      "cityCenter": {
+        "title": "Hiroshima city center",
+        "duration": "~3 hrs",
+        "description": "Hiroshima City is the capital of Hiroshima Prefecture and the 10th largest city in Japan. Rebuilt as a \"City of Peace\" after the August 6, 1945 atomic bombing, it blends major WWII memorials with castles, gardens, tramways, and local food culture.",
+        "imageAlt": "Hiroshima city and the Atomic Bomb Dome along the river",
+        "relatedSite": "Related site",
+        "googleMaps": "Google Maps",
+        "sightseeingSpotsTitle": "Sightseeing Spots",
+        "spots": {
+          "atomicBombDome": {
+            "title": "Atomic Bomb Dome",
+            "walkFrom": "About 1 min walk from the Genbaku Dome-mae (Atomic Bomb Dome) Station",
+            "duration": "15-30 min",
+            "description": "The Atomic Bomb Dome is the preserved skeletal ruin of a building in Hiroshima, Japan, that survived the world's first atomic bombing on August 6, 1945. Designated a UNESCO World Heritage Site in 1996, it serves as a global symbol of nuclear disarmament and lasting peace.",
+            "imageAlt": "The preserved Atomic Bomb Dome in Hiroshima"
+          },
+          "peaceMuseum": {
+            "title": "Hiroshima Peace Memorial Museum",
+            "walkFrom": "About 7 min walk from the Atomic Bomb Dome",
+            "duration": "1-2 hrs",
+            "description": "The Hiroshima Peace Memorial Museum is the primary institution dedicated to documenting the August 6, 1945 atomic bombing and advocating for nuclear abolition. The museum displays personal belongings left by victims, historical photographs, and survivor testimonies.",
+            "imageAlt": "Hiroshima Peace Memorial Museum"
+          }
+        }
+      },
+      "dinner": {
+        "title": "Dinner",
+        "restaurant": "Okonomiyaki Mitchan Sohonten - Orizuru Tower",
+        "walkDuration": "7 min",
+        "description": "Okonomiyaki Mitchan Sohonten is a long-established restaurant founded in 1950, and is known as the originator of the modern Hiroshima-style okonomiyaki (with noodles, special sauce, and eaten with a spatula).",
+        "imageAlt": "Interior of Okonomiyaki Mitchan Sohonten at Orizuru Tower",
+        "relatedSite": "Related site",
+        "googleMaps": "Google Maps",
+        "otherOptionTitle": "Other dining option",
+        "otherOptionName": "Okonomimura",
+        "otherOptionWalkDuration": "About 15 min walk from the Hiroshima Peace Memorial Museum",
+        "otherOptionImageAlt": "Okonomimura building in Hiroshima",
+        "otherOptionDescription": "Okonomimura is a renowned food-themed building located in Naka Ward, Hiroshima City, Japan. It houses over 20 authentic restaurants specializing in Hiroshima-style okonomiyaki. A Legacy of Post-War Yatai Culture. Originating from the open-air food stalls (yatai) that emerged after the war, these eateries are now concentrated on the 2nd through 4th floors of the Shintenchi Plaza building."
+      },
+      "hotel": {
+        "title": "Accommodation",
+        "name": "Hotel Granvia Hiroshima",
+        "travelDuration": "20 min",
+        "description": "Hotel Granvia Hiroshima is a four-star hotel located in Minami-ku, Hiroshima, Japan, and belongs to the JR West Japan Hotel Group. The hotel's biggest selling point is its seamless connection to JR Hiroshima Station (Shinkansen gates), allowing guests to directly access the hotel lobby from the station's second-floor passageway, making transportation extremely convenient.",
+        "imageAlt": "Hotel Granvia Hiroshima connected to Hiroshima Station",
+        "relatedSite": "Related site",
+        "googleMaps": "Google Maps",
+        "otherOptionsTitle": "Other Accommodation options",
+        "otherOptions": {
+          "southGate": {
+            "name": "Hotel Granvia Hiroshima South Gate",
+            "imageAlt": "Hotel Granvia Hiroshima South Gate beside Hiroshima Station",
+            "description": "Hotel Granvia Hiroshima South Gate is a 4-star hotel opening in March 2025, with direct access to the South Exit of JR Hiroshima Station and the brand-new station building. The guest rooms feature wooden flooring and furniture from the local Hiroshima brand. The hotel houses a restaurant specializing in ingredients from the Seto Inland Sea; its breakfast buffet, which offers local fresh seafood, is highly acclaimed by guests."
+          },
+          "rihga": {
+            "name": "RIHGA Royal Hotel Hiroshima",
+            "walkFrom": "About 7 min walk from the Orizuru Tower",
+            "imageAlt": "RIHGA Royal Hotel Hiroshima overlooking the city",
+            "description": "RIHGA Royal Hotel Hiroshima is a landmark 5-star high-rise hotel located in the heart of Hiroshima City. Situated in the Motomachi district, it offers easy walking access to the Atomic Bomb Dome, Peace Memorial Park, Hiroshima Castle, and the Shareo underground shopping mall. It also provides convenient access to Miyajima via tram and ferry."
+          }
+        }
+      },
+      "travelDuration": "50 min"
+    },
+    "itineraryDayTwo": {
+      "title": "Day 2: Floating Torii, Three Views of Japan",
+      "breakfast": {
+        "title": "Breakfast",
+        "hotel": "Hotel Granvia Hiroshima",
+        "description": "Hotel Granvia Hiroshima offers a Japanese and Western buffet breakfast featuring local Hiroshima and Seto Inland Sea ingredients, served at Café & Buffet Dish Parade and, for eligible guests, the Granvia Lounge."
+      },
+      "trainDuration": "25 min",
+      "ferryDuration": "10 min",
+      "stationName": "Miyajimaguchi",
+      "miyajima": {
+        "title": "Miyajima",
+        "duration": "6-8 hrs",
+        "imageAlt": "The floating torii gate of Itsukushima Shrine on Miyajima",
+        "description": "Miyajima (Itsukushima) is a picturesque island in Hiroshima Bay, Japan, celebrated as one of the Three Views of Japan. Famous for its UNESCO-listed Itsukushima Shrine and giant vermilion \"floating\" torii gate, the island also features sacred Mount Misen, friendly roaming deer, vibrant autumn maples, and fresh Hiroshima oysters.",
+        "relatedSite": "Related site",
+        "googleMaps": "Google Maps",
+        "sightseeingOptionsTitle": "Sightseeing Options",
+        "omotesando": {
+          "title": "Miyajima Omotesando Shopping Street",
+          "walkFrom": "About 5 min walk from the ferry",
+          "duration": "15-45 min",
+          "imageAlt": "Shops along Miyajima Omotesando Shopping Street",
+          "description": "Miyajima Omotesando Shopping Street is a lively 350-meter covered arcade on Itsukushima Island, connecting the ferry pier to Itsukushima Shrine. Lined with around 70 shops and stalls, it is famous for local specialties like momiji manju cakes, grilled Hiroshima oysters, conger eel, and traditional shamoji wooden rice paddles."
+        },
+        "itsukiCoffee": {
+          "title": "Itsuki Coffee Miyajima",
+          "duration": "10-20 min",
+          "imageAlt": "Itsuki Coffee Miyajima storefront on Omotesando Shopping Street",
+          "description": "The only specialty coffee shop on Miyajima, Hiroshima Prefecture. They source only high-quality, rare specialty coffee and roast it in-house for serving. They're especially particular about bean freshness, which greatly affects flavor, and the owner roasts fresh beans in-house every morning."
+        },
+        "toyokuni": {
+          "title": "Toyokuni Shrine",
+          "walkFrom": "About 7 min walk from the ferry",
+          "duration": "15-45 min",
+          "imageAlt": "Toyokuni Shrine's Senjokaku Hall and Five-Storied Pagoda on Miyajima",
+          "description": "Senjokaku (Toyokuni Shrine) is Miyajima’s largest wooden hall, built by Toyotomi Hideyoshi in 1587 and left unfinished with an open-air, wall-less design. Right beside it stands the Gojunoto (Five-Storied Pagoda), a vibrant 1407 landmark blending Japanese and Chinese styles, creating a striking hilltop view overlooking Itsukushima Shrine."
+        },
+        "itsukushima": {
+          "title": "Itsukushima Shrine",
+          "walkFrom": "About 8 min walk from the ferry",
+          "duration": "1-1.5 hrs",
+          "imageAlt": "The vermilion halls and floating torii gate of Itsukushima Shrine",
+          "description": "Itsukushima Shrine, a UNESCO World Heritage Shinto site on Japan's Miyajima Island, is famous for its massive vermilion big Torii gate that appears to float at high tide. Expanded in 1168, its over-water wooden pavilions and corridors honor sea deities, allowing visitors to walk up to the gate at low tide."
+        }
+      },
+      "kakiya": {
+        "title": "Lunch",
+        "name": "Kakiya",
+        "walkDuration": "5 min walk",
+        "imageAlt": "Entrance to Kakiya oyster restaurant on Miyajima",
+        "description": "Kakiya (牡蠣屋) is a renowned oyster specialty restaurant on Miyajima's Omotesando shopping street in Hiroshima. Recognized by the Michelin Guide, it exclusively serves plump Jigozen oysters prepared grilled, fried, oil-marinated, and in rice. Walk-ins only, this popular spot features a 3,000-bottle wine cellar and closes once daily oyster supplies sell out."
+      },
+      "misen": {
+        "title": "Go deep into Mt. Misen",
+        "walkDuration": "10 min walk",
+        "duration": "2-3 hrs",
+        "imageAlt": "Mount Misen rises above Miyajima's shoreline with the floating torii gate",
+        "descriptionLead": "Mount Misen (弥山)",
+        "description": " is the sacred, 535-meter highest peak on Japan’s Miyajima Island in Hiroshima. Revered since 806 when monk Kōbō Daishi established Buddhist practice there, it features ancient temple halls, massive granite boulders, and protected primeval forest. Visitors can hike scenic trails or ride a ropeway for panoramic Seto Inland Sea views.",
+        "sightseeingOptionsTitle": "Sightseeing Options",
+        "momijidani": {
+          "title": "Momijidani Park",
+          "walkFrom": "About 10 min walk from the Kakiya",
+          "duration": "15 min",
+          "imageAlt": "Momijidani Park's green maple trees and vermilion bridge",
+          "description": "During summer, Momijidani Park transforms into a lush, emerald sanctuary at the base of Mount Misen. Nearly 700 vibrant green maple trees canopy the valley, shading peaceful stone paths and a classic vermilion bridge. Cool mist rising from the murmuring Momijidani River and wandering sika deer create a refreshing escape."
+        },
+        "ropeway": {
+          "title": "Miyajima Ropeway",
+          "walkFrom": "About 5 min walk from the Momijidani Park",
+          "duration": "30 min",
+          "imageAlt": "Miyajima Ropeway cabins overlooking the Seto Inland Sea",
+          "description": "The Miyajima Ropeway in Hiroshima, Japan, carries visitors from Momijidani Park up Mount Misen via a scenic two-stage aerial tramway. Taking fourteen minutes, passengers transfer at Kayatani Station before reaching Shishiiwa Observatory, enjoying panoramic views of primeval forests, the Seto Inland Sea, and surrounding islands, with hiking trails continuing onward."
+        },
+        "shishiiwa": {
+          "title": "Shishiiwa Observatory",
+          "walkFrom": "About 1 min walk from the Shishiiwa Station",
+          "duration": "10 min",
+          "imageAlt": "The Shishiiwa Observatory stone marker overlooking Miyajima",
+          "description": "Shishiiwa Observatory, perched at 433 meters on Miyajima Island in Hiroshima, Japan, sits directly outside the Miyajima Ropeway terminal. It offers effortless panoramic views of the Seto Inland Sea, Hiroshima Bay, and surrounding islands, while also serving as the trailhead for a 30-minute hike to Mount Misen's summit."
+        },
+        "hondo": {
+          "title": "Misen Hondo",
+          "walkFrom": "About 20 min walk from the Shishiiwa Station",
+          "duration": "15-30 min",
+          "imageAlt": "Misen Hondo Main Hall on Mount Misen",
+          "description": "Misen Hondo (Misen Main Hall) sits near the summit of Mount Misen on Miyajima Island, Hiroshima. Founded in 806 by Buddhist monk Kobo Daishi (Kukai) as part of Daisho-in Temple, it enshrines Kokuzo Bosatsu. Rebuilt after a 1991 typhoon, it is accessible via a 20-minute walk from Shishiiwa Ropeway Station."
+        },
+        "summit": {
+          "title": "Misen Summit",
+          "walkFrom": "About 10 min walk from the Misen Hondo",
+          "duration": "15 min",
+          "imageAlt": "The Mount Misen summit observatory and Seto Inland Sea view",
+          "description": "Mt. Misen Observatory sits atop Miyajima’s 535-meter peak in Hiroshima, Japan. Redesigned by architect Hiroshi Sambuichi, this Michelin three-star wooden structure features shaded resting areas and a 360-degree rooftop deck overlooking the Seto Inland Sea. Visitors reach it via the Miyajima Ropeway plus a 30-minute hike, or scenic mountain trails."
+        },
+        "indoorAlternativeTitle": "Indoor Alternative Option",
+        "aquarium": {
+          "title": "Miyajima Aquarium 'Miyaji Marine'",
+          "walkFrom": "About 10 min walk from the Miyajima Omotesando Shopping Street",
+          "duration": "1.5-2 hrs",
+          "imageAlt": "Miyajima Public Aquarium Miyaji Marine entrance",
+          "description": "An aquarium on Miyajima, known as the island of the World Heritage site Itsukushima Shrine. Inside, you'll find over 15,000 marine animals including 380 species of fish and mammals. Highlights include a tank for finless porpoises living in the Seto Inland Sea, plus zones recreating Miyajima's tidal flats and Hiroshima's satoyama landscapes, with plenty of local-themed exhibits."
+        }
+      },
+      "shopping": {
+        "title": "Last Minutes Shopping at Miyajima",
+        "walkDuration": "10 min walk",
+        "duration": "within 1 hr",
+        "imageAlt": "Miyajima Omotesando Shopping Street",
+        "description": "Stroll Omotesando Shopping Street before catching the ferry back from Miyajima. Pick up fresh, warm momiji manju maple leaf cakes, local oysters, and traditional Miyajima-bori carved wooden crafts or shamoji rice paddles. Most shops stay open into late afternoon, making quick souvenir runs easy, festive, and full of island flavor."
+      },
+      "dinner": {
+        "title": "Dinner",
+        "name": "Onomichi Ramen Sanko",
+        "walkFrom": "About 2 min walk from the Kencho-mae Station",
+        "ferryDuration": "10 min",
+        "trainDuration": "28 min",
+        "changeStation": "Miyajimaguchi",
+        "imageAlt": "Entrance of Onomichi Ramen Sanko",
+        "descriptionLead": "James' Personal Favourite",
+        "description": ", Onomichi Ramen Sanko delivers authentic Seto Inland Sea flavors right in the city center. Its savory soy broth combines chicken, dried sardines, and rich pork back fat, and Onomichi Ramen Sanko is well-known for serving generous amounts of fresh Kujo green onions on a separate plate at no extra cost.",
+        "googleMaps": "Google Maps"
+      }
+    },
+    "itineraryDayThree": {
+      "title": "Day 3: Kumamoto Castle, Three Premier Castles in Japan",
+      "breakfast": {
+        "title": "Breakfast",
+        "hotel": "Hotel Granvia Hiroshima",
+        "hotelCheckout": "Hotel check out",
+        "description": "Hotel Granvia Hiroshima offers a Japanese and Western buffet breakfast featuring local Hiroshima and Seto Inland Sea ingredients, served at Café & Buffet Dish Parade and, for eligible guests, the Granvia Lounge.",
+        "alternative": {
+          "title": "Alternative option",
+          "name": "Ekiben on Shinkansen",
+          "description": "Ekiben are regional Japanese boxed meals sold at train stations for eating on long-distance trains like the Shinkansen. Each box highlights local ingredients—like seafood, beef, or seasonal sides—and is crafted to taste great at room temperature. Buy one before boarding, open it once moving, and enjoy the ride."
+        }
+      },
+      "cityCenter": {
+        "title": "Kumamoto city center",
+        "trainDuration": "1 hr 40 min Shinkansen",
+        "duration": "6-8 hrs",
+        "imageAlt": "Kumamoto Castle rising above a street with tram and local traffic",
+        "description": "Anchored by the majestic Kumamoto Castle, Kumamoto’s vibrant city center seamlessly blends feudal heritage with modern urban energy. Historic streetcars glide past bustling covered shopping arcades like Kamidori and Shimodori, leading visitors from samurai-era architecture and serene Suizenji gardens to lively alleys brimming with rich tonkotsu ramen and local hospitality.",
+        "googleMaps": "Google Maps",
+        "sightseeingOptionsTitle": "Sightseeing Options",
+        "castle": {
+          "title": "Kumamoto Castle",
+          "walkFrom": "About 8 min walk from the Hanabatacho Station",
+          "duration": "2 hrs",
+          "imageAlt": "Kumamoto Castle with black walls and layered tiled roofs",
+          "description": "Kumamoto Castle, located in Kyushu, Japan, is celebrated as one of the nation’s three premier fortresses. Completed in 1607 by feudal lord Kato Kiyomasa, it features iconic black-walled towers and steep, curved stone walls called musha-gaeshi. Despite surviving fires and major earthquakes, ongoing restoration preserves this symbol of samurai resilience."
+        }
+      },
+      "lunch": {
+        "title": "Lunch",
+        "name": "Sakura-no-Baba Josaien",
+        "walkDuration": "3 min",
+        "imageAlt": "Traditional food and craft shops at Sakura-no-Baba Josaien",
+        "description": "Lunch at Sakuranobaba Josaien immerses you in Edo-period charm at the foot of Kumamoto Castle. Stroll down Sakura-no-Koji to savor local specialties like tender Akaushi beef bowls, fresh horse sashimi, and crispy sea urchin croquettes, followed by sweet ikinari dango dumplings for an authentic, flavorful midday break.",
+        "otherOptionsTitle": "Other Options",
+        "optionsTitle": "Options",
+        "options": {
+          "name": "Suganoya Kumamoto Josaien Sakura-no-Koji",
+          "location": "Within Sakura-no-Baba Josaien",
+          "imageAlt": "Suganoya Sakuranokoji shop at Sakura-no-Baba Josaien",
+          "description": "Suganoya Sakuranokoji is a takeout and souvenir shop by Kumamoto's renowned horse meat specialist. Ideal for walk-and-eat snacking without a reservation, it serves fresh Sakura Uma Toro sushi, crispy horse meat cutlets, curry bread, and vacuum-packed basashi souvenirs."
+        },
+        "otherOptions": {
+          "name": "Basashi to Motsuyaki Oniku no Taisho",
+          "walkFrom": "About 3 min walk from the Suidosuji Station",
+          "imageAlt": "Basashi to Motsuyaki Oniku no Taisho restaurant",
+          "description": "Basashi to Motsuyaki Oniku no Taisho features hearty Kumamoto horse meat sets like their signature Hanabira-ju (horse sashimi rice boxes), horse sukiyaki, and stewed horse hamburg steaks. Diners can also enjoy discounted drinks and small plates during happy hour."
+        }
+      },
+      "garden": {
+        "title": "Suizenji Jojuen Garden",
+        "tramDuration": "20 min",
+        "duration": "1-1.5 hrs",
+        "imageAlt": "The pond and miniature Mount Fuji landscape at Suizenji Jojuen Garden",
+        "description": "Suizenji Jojuen in Kumamoto is a historic Momoyama-style strolling garden built in the 17th century by the Hosokawa clan. Fed by pure spring water from Mount Aso, its manicured lawns, pine trees, and floating stones recreate the famous Tokaido route in miniature, featuring a sculpted Mount Fuji and tranquil teahouse.",
+        "indoorAlternativeTitle": "Indoor Alternative Options",
+        "kumamon": {
+          "title": "KUMAMON SQUARE",
+          "walkFrom": "About 2 min walk from the Suidocho Station",
+          "duration": "0.5-1.5 hrs",
+          "imageAlt": "Kumamon mascots at Kumamon Square",
+          "description": "Kumamon Square is the lively headquarters of Kumamoto's beloved mascot, Kumamon. Visitors can enjoy energetic daily dance shows on a 360-degree stage, relax at the themed cafe serving Kumamoto fruit parfaits and Kumamon latte art, browse exclusive merchandise, play interactive AR games, and explore his official Sales Manager office."
+        }
+      },
+      "dinner": {
+        "title": "Dinner",
+        "name": "Kumamoto Ramen Kokutei Shimotori",
+        "tramDuration": "16 min",
+        "imageAlt": "Kumamoto Ramen Kokutei Shimotori storefront",
+        "description": "Kumamoto Ramen Kokutei Shimotori brings a 1957 culinary legacy to the city center. Its signature Tamago Ramen pairs rich pork-head bone broth and smoky roasted garlic oil with homemade medium-thick noodles and two fresh egg yolks, creating a deeply savory, velvety bowl."
+      },
+      "accommodation": {
+        "title": "Accommodation",
+        "name": "THE BLOSSOM KUMAMOTO",
+        "tramDuration": "16 min tram",
+        "imageAlt": "THE BLOSSOM KUMAMOTO and JR Kumamoto Station at dusk",
+        "description": "THE BLOSSOM KUMAMOTO is a four-star hotel directly connected to JR Kumamoto Station and AMU Plaza Kumamoto. Located on floors 9 to 12, its 203 spacious rooms offer sweeping city and mountain views. Guests enjoy exclusive natural groundwater public baths, saunas, a 24-hour gym, and Kyushu-inspired buffet dining.",
+        "otherOptionsTitle": "Other Accommodation options",
+        "ana": {
+          "name": "ANA Crowne Plaza Hotel Kumamoto New Sky",
+          "walkFrom": "About 3 min from the Gionbashi Station",
+          "imageAlt": "ANA Crowne Plaza Hotel Kumamoto New Sky",
+          "description": "ANA Crowne Plaza Kumamoto New Sky is a 25-story riverside hotel in central Kumamoto, located an 8-minute walk from JR Kumamoto Station. Offering spacious rooms, scenic Shirakawa River views, Kumamon-themed suites, and a local-style breakfast buffet, it sits right beside tram and airport bus stops for convenient city sightseeing."
+        },
+        "nikko": {
+          "name": "Hotel Nikko Kumamoto",
+          "walkFrom": "About 2 min walk from the Torichosuji Station",
+          "imageAlt": "Hotel Nikko Kumamoto at dusk",
+          "description": "Hotel Nikko Kumamoto is a centrally located four-star city hotel in downtown Kumamoto, just steps from Torichosuji tram stop and within walking distance of Kumamoto Castle. Renovated in 2022, its 191 non-smoking guest rooms offer castle or mountain views alongside diverse dining options, ideal for both leisure and business travelers."
+        }
+      }
+    },
+    "itineraryDayFour": {
+      "title": "Day 4: Volcano Mt. Aso & Scenic Train ASO BOY!",
+      "breakfast": {
+        "title": "Breakfast",
+        "hotel": "THE BLOSSOM KUMAMOTO",
+        "walkDuration": "Within the station",
+        "description": "THE BLOSSOM KUMAMOTO serves a Japanese-Western buffet breakfast on the 9th floor at Senzanbansui. Featuring fresh Kumamoto ingredients, highlights include sea bream ochazuke, horse meat curry, mustard lotus root, roast beef, croissants, and Aso milk."
+      },
+      "Asoboy!": {
+        "title": "ASO BOY!",
+        "duration": "1.5 hrs",
+        "imageAlt": "ASO BOY!",
+        "description": "ASO BOY! is a joyful JR Kyushu sightseeing train traveling between Kumamoto and Miyaji across the scenic Mount Aso caldera. Designed for families, it features adorable dog mascot Kuro, panoramic front-row windows, white parent-and-child seating, a wooden ball pit, a library corner, and an onboard café serving local treats.",
+        "googleMaps": "Google Maps"
+      }
+    },
+    "spotsTitle": "Top Spots & Food",
+    "budgetTitle": "Estimated Budget",
+    "rsvpTitle": "Others"
+  }
+}
