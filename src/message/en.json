@@ -4,7 +4,7 @@
     "home": "Overview",
     "itinerary": "Itinerary",
     "spots": "Top Spots",
-    "budget": "Budget",
+    "budget": "To-do list",
     "rsvp": "Others",
     "backToTop": "Back to top"
   },
@@ -58,7 +58,7 @@
       "navigation": "Footer navigation",
       "itinerary": "Itinerary",
       "spots": "Top Spots",
-      "budget": "Budget",
+      "budget": "To-do list",
       "rsvp": "Others",
       "copyright": "@kwokjames188"
     }
@@ -402,7 +402,7 @@
       }
     },
     "spotsTitle": "Top Spots & Food",
-    "budgetTitle": "Estimated Budget",
+    "budgetTitle": "To-do list",
     "rsvpTitle": "Others"
   }
 }

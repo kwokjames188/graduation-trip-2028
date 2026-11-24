@@ -4,7 +4,7 @@
     "home": "行程總覽",
     "itinerary": "每日行程",
     "spots": "必去景點",
-    "budget": "預算估算",
+    "budget": "待辦事項",
     "rsvp": "其他",
     "backToTop": "回到頁首"
   },
@@ -58,7 +58,7 @@
       "navigation": "頁尾導航",
       "itinerary": "每日行程",
       "spots": "必去景點",
-      "budget": "預算估算",
+      "budget": "待辦事項",
       "rsvp": "其他",
       "copyright": "@kwokjames188"
     }
@@ -402,7 +402,7 @@
       }
     },
     "spotsTitle": "必去景點與美食",
-    "budgetTitle": "旅費預算估算",
+    "budgetTitle": "待辦事項",
     "rsvpTitle": "其他"
   }
 }

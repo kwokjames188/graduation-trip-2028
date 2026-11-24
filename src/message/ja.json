@@ -4,7 +4,7 @@
     "home": "概要",
     "itinerary": "日程表",
     "spots": "観光スポット",
-    "budget": "予算",
+    "budget": "やること",
     "rsvp": "その他",
     "backToTop": "ページ上部へ"
   },
@@ -58,7 +58,7 @@
       "navigation": "フッターナビゲーション",
       "itinerary": "日程表",
       "spots": "観光スポット",
-      "budget": "予算",
+      "budget": "やること",
       "rsvp": "その他",
       "copyright": "@kwokjames188"
     }
@@ -402,7 +402,7 @@
       }
     },
     "spotsTitle": "おすすめスポット・グルメ",
-    "budgetTitle": "予算シミュレーション",
+    "budgetTitle": "やること",
     "rsvpTitle": "その他"
   }
 }
