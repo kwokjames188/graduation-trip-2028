@@ -399,6 +399,35 @@
           "imageAlt": "ASO BOY! Kuro Club",
           "description": "Kuro Club 是專為兒童與家庭打造的空間，設有互動遊戲、著色活動，以及點綴著 Kuro 吉祥物裝飾的舒適休憩區。"
         }
+      },
+      "MtAso": {
+        "title": "阿蘇山",
+        "busDuration": "35分",
+        "duration": "4小時",
+        "imageAlt": "Mt. Aso",
+        "description": "阿蘇山是日本最大的活火山。它以巨大的破火山口聞名——週長達 120 公里，位居世界前列——境內擁有五座中央火山峰、冒著蒸氣的火山口、蒼翠的草原以及具療效的溫泉，構成了阿蘇九重國立公園的核心地帶。",
+        "googleMaps": "Google Maps",
+        "sightseeingOptionsTitle": "觀光景點",
+        "Nakadake": {
+          "title": "阿蘇山中岳火山口",
+          "walkFrom": "距離阿蘇山上總站約 5 分鐘接駁車",
+          "duration": "1小時",
+          "imageAlt": "Nakadake Crater, Mount Aso",
+          "description": "位於阿蘇山核心地帶的中岳火山口，是這座巨大火山群中唯一的活躍火山口。這處壯觀的地質奇景直徑達 600 公尺、深 130 公尺，火山口內蓄有一潭冒著蒸氣、呈乳綠色的酸性湖水。若火山氣體濃度在安全範圍內，遊客便能近距離一探這處翻騰冒煙的深淵。"
+        }
+      },
+      "lunch": {
+        "title": "午餐",
+        "name": "草千里食堂",
+        "busDuration": "10分",
+        "imageAlt": "Kusasenri Shokudo",
+        "description": "「草千里食堂」位於日本熊本縣阿蘇市的「新草千里」二樓，是一間坐擁絕美景緻的餐廳。餐廳正對著草千里之濱高原與阿蘇山，透過大片窗景，賓客可將壯麗風光盡收眼底；同時，這裡也供應各式熊本在地特色美食，包括招牌赤牛牛肉丼飯、馬肉刺身、熊本拉麵，以及傳統的「糰子汁」定食。",
+        "optionsTitle": "其他選項",
+        "options": {
+          "name": "douce Nucca",
+          "imageAlt": "douce Nucca",
+          "description": "「douce Nucca」是一間位於熊本縣阿蘇、正對著草千里濱的兩層樓木造餐廳兼伴手禮店。店內設有大片窗戶與露台，可飽覽壯麗的山景；餐點主打阿蘇赤牛漢堡、牛排等在地特色料理，另亦供應各式甜點、色彩繽紛的飲品、外帶輕食，以及當地的特色伴手禮。"
+        }
       }
     },
     "spotsTitle": "必去景點與美食",

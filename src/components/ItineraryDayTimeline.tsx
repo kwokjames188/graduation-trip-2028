@@ -1,7 +1,9 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import {
+  Bus,
   BusFront,
+  BusFrontIcon,
   Clock3,
   ExternalLink,
   Footprints,
@@ -1651,6 +1653,213 @@ export default function ItineraryDayTimeline({
                       <p className="text-sm leading-7 text-slate-700 sm:text-base">
                         {t("itineraryDayFour.Asoboy!.kuro-club.description")}
                       </p>
+                    </div>
+                  </div>
+                </article>
+              </section>
+            </article>
+          </li>
+        </ol>
+        <div className="mx-auto max-w-4xl">
+          <div className="relative ml-7 flex h-32 items-center border-l border-cyan-500 pl-10">
+            <span className="absolute -left-6 grid size-12 place-items-center rounded-full border border-cyan-500 bg-white text-slate-700">
+              <BusFrontIcon className="size-6" aria-hidden="true" />
+            </span>
+            <span className="text-sm text-slate-700">
+              {t("itineraryDayFour.MtAso.busDuration")}
+            </span>
+          </div>
+        </div>
+        <ol className="mx-auto max-w-4xl">
+          <li>
+            <article className="relative rounded-md border border-cyan-500 bg-white px-5 pb-7 pt-8 shadow-sm sm:px-8 sm:pb-8 sm:pl-14">
+              <span
+                aria-hidden="true"
+                className="absolute -left-1.5 -top-7 grid size-14 place-items-center"
+              >
+                <MapPin className="absolute size-14 fill-orange-500 text-orange-500" />
+                <span className="relative -top-1 text-xl font-bold text-white">
+                  1
+                </span>
+              </span>
+              <h3 className="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
+                {t("itineraryDayFour.MtAso.title")}
+              </h3>
+              <p className="mt-2 flex items-center gap-1.5 text-sm text-slate-700">
+                <Clock3 className="size-4 shrink-0" aria-hidden="true" />
+                {t("itineraryTimeRequired", {
+                  duration: t("itineraryDayFour.MtAso.duration"),
+                })}
+              </p>
+              <Image
+                src="/itinerary/Mt-Aso.webp"
+                alt={t("itineraryDayFour.MtAso.imageAlt")}
+                width={1024}
+                height={682}
+                sizes="(min-width: 1024px) 800px, 100vw"
+                className="mt-5 h-auto w-full rounded-md"
+              />
+              <p className="mt-5 text-sm leading-7 text-slate-700 sm:text-base">
+                {t("itineraryDayFour.MtAso.description")}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                <ResourceLink href="https://aso-volcano.jp/">
+                  {t("itineraryDayTwo.miyajima.relatedSite")}
+                </ResourceLink>
+                <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Mt.+Aso">
+                  {t("itineraryDayThree.cityCenter.googleMaps")}
+                </ResourceLink>
+              </div>
+              <section
+                aria-labelledby="MtAso-sightseeing-options-title"
+                className="mt-8 border-t border-slate-200 pt-7"
+              >
+                <h4
+                  id="MtAso-sightseeing-options-title"
+                  className="text-xl font-bold text-slate-800 sm:text-2xl"
+                >
+                  {t("itineraryDayFour.MtAso.sightseeingOptionsTitle")}
+                </h4>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.MtAso.Nakadake.title")}
+                  </h5>
+                  <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-700">
+                    <p className="flex items-start gap-1.5">
+                      <Footprints
+                        className="mt-0.5 size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryDayFour.MtAso.Nakadake.walkFrom")}
+                    </p>
+                    <p className="flex items-center gap-1.5">
+                      <Clock3
+                        className="size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryTimeRequired", {
+                        duration: t(
+                          "itineraryDayFour.MtAso.Nakadake.duration",
+                        ),
+                      })}
+                    </p>
+                  </div>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/Nakadake.jpg"
+                        alt={t(
+                          "itineraryDayFour.MtAso.Nakadake.imageAlt",
+                        )}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t(
+                          "itineraryDayFour.MtAso.Nakadake.description",
+                        )}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                        <ResourceLink href="https://aso-volcano.jp/">
+                          {t("itineraryDayTwo.miyajima.relatedSite")}
+                        </ResourceLink>
+                        <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Mt.+Aso+Nakadake">
+                          {t("itineraryDayThree.cityCenter.googleMaps")}
+                        </ResourceLink>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </section>
+            </article>
+          </li>
+        </ol>
+        <div className="mx-auto max-w-4xl">
+          <div className="relative ml-7 flex h-32 items-center border-l border-cyan-500 pl-10">
+            <span className="absolute -left-6 grid size-12 place-items-center rounded-full border border-cyan-500 bg-white text-slate-700">
+              <BusFrontIcon className="size-6" aria-hidden="true" />
+            </span>
+            <span className="text-sm text-slate-700">
+              {t("itineraryDayFour.lunch.busDuration")}
+            </span>
+          </div>
+        </div>
+        <ol className="mx-auto max-w-4xl">
+          <li>
+            <article className="relative rounded-md border border-cyan-500 bg-white px-5 pb-7 pt-8 shadow-sm sm:px-8 sm:pb-8 sm:pl-14">
+              <span
+                aria-hidden="true"
+                className="absolute -left-1.5 -top-7 grid size-14 place-items-center"
+              >
+                <MapPin className="absolute size-14 fill-orange-500 text-orange-500" />
+                <span className="relative -top-1 text-xl font-bold text-white">
+                  2
+                </span>
+              </span>
+              <h3 className="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
+                {t("itineraryDayFour.lunch.title")}
+              </h3>
+              <h4 className="mt-2 text-lg font-bold text-slate-800">
+                {t("itineraryDayFour.lunch.name")}
+              </h4>
+              <Image
+                src="/itinerary/Kusashoku.webp"
+                alt={t("itineraryDayFour.lunch.imageAlt")}
+                width={1024}
+                height={683}
+                sizes="(min-width: 1024px) 800px, 100vw"
+                className="mt-5 h-auto w-full rounded-md"
+              />
+              <p className="mt-5 text-sm leading-7 text-slate-700 sm:text-base">
+                {t("itineraryDayFour.lunch.description")}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                <ResourceLink href="https://www.newkusasenri.com/">
+                  {t("itineraryDayTwo.miyajima.relatedSite")}
+                </ResourceLink>
+                <ResourceLink href="https://www.google.com/maps/search/?api=1&query=New+Kusasenri">
+                  {t("itineraryDayThree.cityCenter.googleMaps")}
+                </ResourceLink>
+              </div>
+              <section
+                aria-labelledby="kusasenri-options-title"
+                className="mt-8 border-t border-slate-200 pt-7"
+              >
+                <h4
+                  id="kusasenri-options-title"
+                  className="text-xl font-bold text-slate-800 sm:text-2xl"
+                >
+                  {t("itineraryDayFour.lunch.optionsTitle")}
+                </h4>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.lunch.options.name")}
+                  </h5>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/douce-Nucca.jpg"
+                        alt={t("itineraryDayFour.lunch.options.imageAlt")}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t("itineraryDayFour.lunch.options.description")}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                        <ResourceLink href="https://doucenucca.jp/">
+                          {t("itineraryDayTwo.miyajima.relatedSite")}
+                        </ResourceLink>
+                        <ResourceLink href="https://www.google.com/maps/search/?api=1&query=douce+Nucca">
+                          {t("itineraryDayThree.cityCenter.googleMaps")}
+                        </ResourceLink>
+                      </div>
                     </div>
                   </div>
                 </article>

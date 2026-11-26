@@ -399,6 +399,35 @@
           "imageAlt": "ASO BOY! Kuro Club",
           "description": "The Kuro Club is a dedicated space for children and families, featuring interactive games, coloring activities, and a cozy seating area with Kuro mascot decorations."
         }
+      },
+      "MtAso": {
+        "title": "Mt. Aso",
+        "busDuration": "35 min",
+        "duration": "4 hrs",
+        "imageAlt": "Mt. Aso",
+        "description": "Mount Aso is the country's largest active volcano. Renowned for its massive caldera—one of the world's largest at 120 kilometers in circumference—it features five central peaks, steaming craters, lush grasslands, and therapeutic hot springs, forming the heart of Aso-Kuju National Park.",
+        "googleMaps": "Google Maps",
+        "sightseeingOptionsTitle": "Sightseeing Options",
+        "Nakadake": {
+          "title": "Nakadake Crater, Mount Aso",
+          "walkFrom": "About 5 min shuttle bus from the Aso Sanjo Terminal",
+          "duration": "1 hr",
+          "imageAlt": "Nakadake Crater, Mount Aso",
+          "description": "At the heart of Mount Aso, Nakadake Crater is the massive volcano's only active peak. Spanning 600 meters across and 130 meters deep, this dramatic geological wonder holds a steaming, milky-green acidic lake. When volcanic gas levels permit, visitors can peer directly into its bubbling, smoking abyss up close."
+        }
+      },
+      "lunch": {
+        "title": "Lunch",
+        "name": "Kusasenri Shokudo",
+        "busDuration": "10 min",
+        "imageAlt": "Kusasenri Shokudo",
+        "description": "Kusasenri Shokudo is a scenic restaurant on the second floor of New Kusasenri in Aso, Kumamoto, Japan. Directly facing the Kusasenri-ga-hama plateau and Mount Aso, it offers panoramic window views alongside local Kumamoto specialties, including signature Akaushi beef bowls, horse sashimi, Kumamoto ramen, and traditional dagojiru soup sets.",
+        "optionsTitle": "Other Options",
+        "options": {
+          "name": "douce Nucca",
+          "imageAlt": "douce Nucca",
+          "description": "douce Nucca is a two-story wooden restaurant and souvenir shop situated right across from Kusasenrigahama in Aso, Kumamoto. Offering panoramic mountain views from large windows and a terrace, it serves local specialties like Akaushi beef burgers, steaks, and hamburgers, alongside sweets, colorful drinks, takeout snacks, and regional gifts."
+        }
       }
     },
     "spotsTitle": "Top Spots & Food",
