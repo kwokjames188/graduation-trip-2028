@@ -67,6 +67,11 @@
     "itineraryTitle": "Day-by-Day Itinerary",
     "itineraryDateNav": "Trip dates",
     "itineraryDayLabel": "Day {day}",
+    "itineraryDayFivePlans": "Day 5 plans",
+    "itineraryHuisTenBoschPlan": "Huis Ten Bosch Plan",
+    "itineraryUnzenOnsenPlan": "Unzen Onsen Plan",
+    "itineraryDayFiveHuisTenBoschTitle": "Day 5: Spend a Day in the Netherlands Theme Park, Huis Ten Bosch",
+    "itineraryDayFiveUnzenOnsenTitle": "Day 5: Shimabara Castle, Hidden Onsen Town \"Unzen Hells\"",
     "itineraryScheduleComingSoon": "Schedule coming soon...",
     "itineraryNextDay": "Continue to Day 2",
     "itineraryNextDayThree": "Continue to Day 3",
@@ -427,7 +432,54 @@
           "name": "douce Nucca",
           "imageAlt": "douce Nucca",
           "description": "douce Nucca is a two-story wooden restaurant and souvenir shop situated right across from Kusasenrigahama in Aso, Kumamoto. Offering panoramic mountain views from large windows and a terrace, it serves local specialties like Akaushi beef burgers, steaks, and hamburgers, alongside sweets, colorful drinks, takeout snacks, and regional gifts."
+        },
+        "options2": {
+          "name": "Kusasenri Coffee Roastery",
+          "imageAlt": "Kusasenri Coffee Roastery",
+          "description": "Kusasenri Coffee Roastery is a cozy coffee shop located in the heart of Kusasenrigahama, Aso. Known for its high-quality, locally-sourced coffee beans and artisanal pastries, it offers a warm and inviting atmosphere for visitors to relax and enjoy a delicious cup of coffee."
         }
+      },
+      "Kusasenri": {
+        "title": "Kusasenrigahama",
+        "walkDuration": "3 min",
+        "duration": "2.5 hrs",
+        "imageAlt": "Kusasenrigahama",
+        "description": "Kusasenrigahama is a sprawling highland grassland at about 1,100 meters in Kumamoto's Aso region. Set within ancient volcanic craters, it features rainwater ponds, grazing horses, and views of steaming Mount Nakadake. Visitors enjoy scenic walks, horseback riding, and shifting seasonal landscapes—from lush green summers to snowy winters—alongside nearby museums and cafes.",
+        "googleMaps": "Google Maps",
+        "specialsTitle": "Sightseeing Options",
+        "Muse": {
+          "title": "Aso Volcano Museum",
+          "walkFrom": "About 3 min walk from the New Kusasenri",
+          "duration": "40 min",
+          "imageAlt": "Aso Volcano Museum",
+          "description": "Aso Volcano Museum explores the geology and culture of Mount Aso’s massive caldera. Visitors can view live feeds of Nakadake crater, watch multi-screen films, and see a giant crater diorama, making it ideal even when crater access is restricted."
+        },
+        "Kishimadake": {
+          "title": "Kishimadake",
+          "walkFrom": "About 30 min walk from the New Kusasenri",
+          "duration": "15 min",
+          "imageAlt": "Kishimadake",
+          "description": "Kishima-dake is one of the five central volcanic peaks of Mount Aso in Kumamoto, Japan. Accessible via a scenic, paved stairway from the Kusasenri grasslands, this short, rewarding hike leads to a 1,326-meter summit offering sweeping panoramic views of the steaming Nakadake crater, Komezuka cone, and vast caldera"
+        },
+        "Horse": {
+          "title": "Aso Kusasenri Horse Riding Club",
+          "walkFrom": "About 3 min walk from the New Kusasenri",
+          "duration": "10 min",
+          "imageAlt": "Aso Kusasenri Horse Riding Club",
+          "description": "At Kusasenrigahama in Mount Aso, staff-led horseback rides let beginners and families explore sweeping volcanic grasslands with smoking Mount Nakadake behind you. Running from March through November, offering elevated views over tranquil ponds, grazing horses, and dramatic highland scenery across Kumamoto's iconic crater plain"
+        }
+      },
+      "dinner": {
+        "title": "Dinner",
+        "name": "Katsuretsu Tei Amu Plaza Kumamoto",
+        "walkFrom": "About 2 min walk from the Kumamoto Station",
+        "busDuration": "25 min",
+        "trainDuration": "1 hr 30 min",
+        "changeStation": "Aso Station",
+        "imageAlt": "Katsuretsu Tei Amu Plaza Kumamoto",
+        "description": "Katsuretsutei Tei Amu Plaza Kumamoto is a celebrated tonkatsu specialty restaurant. Famous for its crispy, tender pork loin, fillet cutlets, and jumbo fried shrimp, it offers authentic Kumamoto-style comfort dining with convenient station access.",
+        "descriptionNote": "※ Main Store located in Shinshigaichi, possible to visit with shopping at Shimotori",
+        "googleMaps": "Google Maps"
       }
     },
     "spotsTitle": "Top Spots & Food",

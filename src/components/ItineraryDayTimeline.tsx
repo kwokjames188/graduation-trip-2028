@@ -12,6 +12,7 @@ import {
   TrainFront,
   TramFront,
 } from "lucide-react";
+import ItineraryDayFivePlanSelector from "./ItineraryDayFivePlanSelector";
 
 type ItineraryDayTimelineProps = {
   day: number;
@@ -128,6 +129,22 @@ export default function ItineraryDayTimeline({
   day,
 }: ItineraryDayTimelineProps) {
   const t = useTranslations("Pages");
+
+  if (day === 4) {
+    return (
+      <ItineraryDayFivePlanSelector
+        label={t("itineraryDayFivePlans")}
+        huisTenBoschLabel={t("itineraryHuisTenBoschPlan")}
+        unzenOnsenLabel={t("itineraryUnzenOnsenPlan")}
+        huisTenBoschTitle={t("itineraryDayFiveHuisTenBoschTitle")}
+        unzenOnsenTitle={t("itineraryDayFiveUnzenOnsenTitle")}
+      />
+    );
+  }
+
+  if (day > 4) {
+    return null;
+  }
 
   if (day === 1) {
     return (
@@ -1679,7 +1696,7 @@ export default function ItineraryDayTimeline({
               >
                 <MapPin className="absolute size-14 fill-orange-500 text-orange-500" />
                 <span className="relative -top-1 text-xl font-bold text-white">
-                  1
+                  2
                 </span>
               </span>
               <h3 className="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
@@ -1796,7 +1813,7 @@ export default function ItineraryDayTimeline({
               >
                 <MapPin className="absolute size-14 fill-orange-500 text-orange-500" />
                 <span className="relative -top-1 text-xl font-bold text-white">
-                  2
+                  3
                 </span>
               </span>
               <h3 className="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
@@ -1839,7 +1856,7 @@ export default function ItineraryDayTimeline({
                     {t("itineraryDayFour.lunch.options.name")}
                   </h5>
                   <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
-                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                    <div className="relative aspect-[4/3] overflow-hidden rounded-md">
                       <Image
                         src="/itinerary/douce-Nucca.jpg"
                         alt={t("itineraryDayFour.lunch.options.imageAlt")}
@@ -1847,7 +1864,7 @@ export default function ItineraryDayTimeline({
                         sizes="(min-width: 640px) 200px, 100vw"
                         className="object-cover"
                       />
-                    </figure>
+                    </div>
                     <div>
                       <p className="text-sm leading-7 text-slate-700 sm:text-base">
                         {t("itineraryDayFour.lunch.options.description")}
@@ -1863,7 +1880,334 @@ export default function ItineraryDayTimeline({
                     </div>
                   </div>
                 </article>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.lunch.options2.name")}
+                  </h5>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <div className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/kusacafe.webp"
+                        alt={t("itineraryDayFour.lunch.options2.imageAlt")}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t("itineraryDayFour.lunch.options2.description")}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                        <ResourceLink href="https://www.kusasenricoffeeroastery.com/">
+                          {t("itineraryDayTwo.miyajima.relatedSite")}
+                        </ResourceLink>
+                        <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Kusasenri+Coffee+Roastery">
+                          {t("itineraryDayThree.cityCenter.googleMaps")}
+                        </ResourceLink>
+                      </div>
+                    </div>
+                  </div>
+                </article>
               </section>
+            </article>
+          </li>
+        </ol>
+        <div className="mx-auto max-w-4xl">
+          <div className="relative ml-7 flex h-32 items-center border-l border-cyan-500 pl-10">
+            <span className="absolute -left-6 grid size-12 place-items-center rounded-full border border-cyan-500 bg-white text-slate-700">
+              <Footprints className="size-6" aria-hidden="true" />
+            </span>
+            <span className="text-sm text-slate-700">
+              {t("itineraryDayFour.Kusasenri.walkDuration")}
+            </span>
+          </div>
+        </div>
+        <ol className="mx-auto max-w-4xl">
+          <li>
+            <article className="relative rounded-md border border-cyan-500 bg-white px-5 pb-7 pt-8 shadow-sm sm:px-8 sm:pb-8 sm:pl-14">
+              <span
+                aria-hidden="true"
+                className="absolute -left-1.5 -top-7 grid size-14 place-items-center"
+              >
+                <MapPin className="absolute size-14 fill-orange-500 text-orange-500" />
+                <span className="relative -top-1 text-xl font-bold text-white">
+                  4
+                </span>
+              </span>
+              <h3 className="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
+                {t("itineraryDayFour.Kusasenri.title")}
+              </h3>
+              <p className="mt-2 flex items-center gap-1.5 text-sm text-slate-700">
+                <Clock3 className="size-4 shrink-0" aria-hidden="true" />
+                {t("itineraryTimeRequired", {
+                  duration: t("itineraryDayFour.Kusasenri.duration"),
+                })}
+              </p>
+              <Image
+                src="/itinerary/Kusasenrigahama.jpg"
+                alt={t("itineraryDayFour.Kusasenri.imageAlt")}
+                width={1024}
+                height={682}
+                sizes="(min-width: 1024px) 800px, 100vw"
+                className="mt-5 h-auto w-full rounded-md"
+              />
+              <p className="mt-5 text-sm leading-7 text-slate-700 sm:text-base">
+                {t("itineraryDayFour.Kusasenri.description")}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                <ResourceLink href="https://kumamoto.guide/spots/detail/210">
+                  {t("itineraryDayTwo.miyajima.relatedSite")}
+                </ResourceLink>
+                <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Kusasenrigahama">
+                  {t("itineraryDayThree.cityCenter.googleMaps")}
+                </ResourceLink>
+              </div>
+              <section
+                aria-labelledby="Kusasenri-specials-title"
+                className="mt-8 border-t border-slate-200 pt-7"
+              >
+                <h4 id="Kusasenri-specials-title" className="text-xl font-bold text-slate-800 sm:text-2xl">
+                  {t("itineraryDayFour.Kusasenri.specialsTitle")}
+                </h4>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Kusasenri.Muse.title")}
+                  </h5>
+                  <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-700">
+                    <p className="flex items-start gap-1.5">
+                      <Footprints
+                        className="mt-0.5 size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryDayFour.Kusasenri.Muse.walkFrom")}
+                    </p>
+                    <p className="flex items-center gap-1.5">
+                      <Clock3
+                        className="size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryTimeRequired", {
+                        duration: t(
+                          "itineraryDayFour.Kusasenri.Muse.duration",
+                        ),
+                      })}
+                    </p>
+                  </div>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/Asomuse.jpg"
+                        alt={t(
+                          "itineraryDayFour.Kusasenri.Muse.imageAlt",
+                        )}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t(
+                          "itineraryDayFour.Kusasenri.Muse.description",
+                        )}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                        <ResourceLink href="https://asomuse.jp/">
+                          {t("itineraryDayTwo.miyajima.relatedSite")}
+                        </ResourceLink>
+                        <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Aso+Volcano+Museum">
+                          {t("itineraryDayThree.cityCenter.googleMaps")}
+                        </ResourceLink>
+                      </div>
+                    </div>
+                  </div> 
+                </article>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Kusasenri.Kishimadake.title")}
+                  </h5>
+                  <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-700">
+                    <p className="flex items-start gap-1.5">
+                      <Footprints
+                        className="mt-0.5 size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryDayFour.Kusasenri.Kishimadake.walkFrom")}
+                    </p>
+                    <p className="flex items-center gap-1.5">
+                      <Clock3
+                        className="size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryTimeRequired", {
+                        duration: t(
+                          "itineraryDayFour.Kusasenri.Kishimadake.duration",
+                        ),
+                      })}
+                    </p>
+                  </div>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/Kishimadake.jpg"
+                        alt={t(
+                          "itineraryDayFour.Kusasenri.Kishimadake.imageAlt",
+                        )}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t(
+                          "itineraryDayFour.Kusasenri.Kishimadake.description",
+                        )}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                        <ResourceLink href="https://kumamoto.guide/spots/detail/12524">
+                          {t("itineraryDayTwo.miyajima.relatedSite")}
+                        </ResourceLink>
+                        <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Kishimadake">
+                          {t("itineraryDayThree.cityCenter.googleMaps")}
+                        </ResourceLink>
+                      </div>
+                    </div>
+                  </div> 
+                </article>
+                <article className="mt-5">
+                  <h5 className="text-lg font-bold text-slate-800">
+                    {t("itineraryDayFour.Kusasenri.Horse.title")}
+                  </h5>
+                  <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-700">
+                    <p className="flex items-start gap-1.5">
+                      <Footprints
+                        className="mt-0.5 size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryDayFour.Kusasenri.Horse.walkFrom")}
+                    </p>
+                    <p className="flex items-center gap-1.5">
+                      <Clock3
+                        className="size-4 shrink-0"
+                        aria-hidden="true"
+                      />
+                      {t("itineraryTimeRequired", {
+                        duration: t(
+                          "itineraryDayFour.Kusasenri.Horse.duration",
+                        ),
+                      })}
+                    </p>
+                  </div>
+                  <div className="mt-4 grid items-start gap-4 sm:grid-cols-[minmax(0,200px)_minmax(0,1fr)]">
+                    <figure className="relative aspect-[4/3] overflow-hidden rounded-md">
+                      <Image
+                        src="/itinerary/Horse.jpg"
+                        alt={t(
+                          "itineraryDayFour.Kusasenri.Horse.imageAlt",
+                        )}
+                        fill
+                        sizes="(min-width: 640px) 200px, 100vw"
+                        className="object-cover"
+                      />
+                    </figure>
+                    <div>
+                      <p className="text-sm leading-7 text-slate-700 sm:text-base">
+                        {t(
+                          "itineraryDayFour.Kusasenri.Horse.description",
+                        )}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                        <ResourceLink href="https://kumamoto.guide/spots/detail/11961">
+                          {t("itineraryDayTwo.miyajima.relatedSite")}
+                        </ResourceLink>
+                        <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Aso+Kusasenri+Horse+Riding+Club">
+                          {t("itineraryDayThree.cityCenter.googleMaps")}
+                        </ResourceLink>
+                      </div>
+                    </div>
+                  </div> 
+                </article>
+              </section>
+            </article>
+          </li>
+        </ol>
+        <div className="mx-auto max-w-4xl">
+          <div className="relative ml-7 flex h-32 items-center border-l border-cyan-500 pl-10">
+            <span
+              aria-hidden="true"
+              className="absolute -left-6 grid size-12 place-items-center rounded-full border border-cyan-500 bg-white text-slate-700"
+            >
+              <BusFront className="size-6" />
+            </span>
+            <span className="text-sm text-slate-700">
+              {t("itineraryDayFour.dinner.busDuration")}
+            </span>
+          </div>
+          <div className="relative ml-7 flex h-32 items-center border-l border-cyan-500 pl-10">
+            <span
+              aria-hidden="true"
+              className="absolute -left-[5px] top-0 size-[10px] -translate-y-1/2 rounded-full border-2 border-cyan-500 bg-white"
+            />
+            <span className="absolute left-10 top-0 -translate-y-1/2 text-sm font-medium whitespace-nowrap text-slate-700">
+              {t("itineraryDayFour.dinner.changeStation")}
+            </span>
+            <span
+              aria-hidden="true"
+              className="absolute -left-6 grid size-12 place-items-center rounded-full border border-cyan-500 bg-white text-slate-700"
+            >
+              <TrainFront className="size-6" />
+            </span>
+            <span className="text-sm text-slate-700">
+              {t("itineraryDayFour.dinner.trainDuration")}
+            </span>
+          </div>
+        </div>
+        <ol className="mx-auto max-w-4xl">
+          <li>
+            <article className="relative rounded-md border border-cyan-500 bg-white px-5 pb-7 pt-8 shadow-sm sm:px-8 sm:pb-8 sm:pl-14">
+              <span
+                aria-hidden="true"
+                className="absolute -left-1.5 -top-7 grid size-14 place-items-center"
+              >
+                <MapPin className="absolute size-14 fill-orange-500 text-orange-500" />
+                <span className="relative -top-1 text-xl font-bold text-white">
+                  5
+                </span>
+              </span>
+              <h3 className="text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
+                {t("itineraryDayFour.dinner.title")}
+              </h3>
+              <h4 className="mt-2 text-lg font-bold text-slate-800">
+                {t("itineraryDayFour.dinner.name")}
+              </h4>
+              <p className="mt-2 flex items-center gap-1.5 text-sm text-slate-700">
+                <Footprints className="size-4 shrink-0" aria-hidden="true" />
+                {t("itineraryDayFour.dinner.walkFrom")}
+              </p>
+              <Image
+                src="/itinerary/Katsuretsutei.jpg"
+                alt={t("itineraryDayFour.dinner.imageAlt")}
+                width={1024}
+                height={768}
+                sizes="(min-width: 1024px) 800px, 100vw"
+                className="mt-5 h-auto w-full rounded-md"
+              />
+              <p className="mt-5 text-sm leading-7 text-slate-700 sm:text-base">
+                {t("itineraryDayFour.dinner.description")}
+              </p>
+              <p className="mt-3 text-sm leading-7 text-slate-700 sm:text-base">
+                {t("itineraryDayFour.dinner.descriptionNote")}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3 text-sm font-medium text-cyan-700">
+                <ResourceLink href="https://hayashi-sangyo.jp/">
+                  {t("itineraryDayTwo.miyajima.relatedSite")}
+                </ResourceLink>
+                <ResourceLink href="https://www.google.com/maps/search/?api=1&query=Katsuretsutei+Amu+Plaza+Kumamoto+Store">
+                  {t("itineraryDayTwo.dinner.googleMaps")}
+                </ResourceLink>
+              </div>
             </article>
           </li>
         </ol>

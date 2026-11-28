@@ -67,6 +67,11 @@
     "itineraryTitle": "每日行程安排",
     "itineraryDateNav": "旅行日期",
     "itineraryDayLabel": "第 {day} 天",
+    "itineraryDayFivePlans": "第 5 天方案",
+    "itineraryHuisTenBoschPlan": "豪斯登堡方案",
+    "itineraryUnzenOnsenPlan": "雲仙溫泉方案",
+    "itineraryDayFiveHuisTenBoschTitle": "第 5 天：在荷蘭主題樂園豪斯登堡度過一天",
+    "itineraryDayFiveUnzenOnsenTitle": "第 5 天：島原城、隱秘避暑溫泉街「雲仙地獄」",
     "itineraryScheduleComingSoon": "每日行程即將推出。",
     "itineraryNextDay": "前往第 2 天行程",
     "itineraryNextDayThree": "前往第 3 天行程",
@@ -427,8 +432,56 @@
           "name": "douce Nucca",
           "imageAlt": "douce Nucca",
           "description": "「douce Nucca」是一間位於熊本縣阿蘇、正對著草千里濱的兩層樓木造餐廳兼伴手禮店。店內設有大片窗戶與露台，可飽覽壯麗的山景；餐點主打阿蘇赤牛漢堡、牛排等在地特色料理，另亦供應各式甜點、色彩繽紛的飲品、外帶輕食，以及當地的特色伴手禮。"
+        },
+        "options2": {
+          "name": "草千里珈琲焙煎所",
+          "imageAlt": "Kusasenri Coffee Roastery",
+          "description": "草千里珈琲焙煎所是位於阿蘇草千里浜中心部位的一家舒適咖啡店。以其高品質、當地採購的咖啡豆和手工餅乾而聞名，為遊客提供一個溫暖且令人舒適的氛圍，讓他們可以放鬆並享受一杯美味的咖啡。"
         }
+      },
+        "Kusasenri": {
+        "title": "草千里濱",
+        "walkDuration": "3 分鐘",
+        "duration": "2.5 小時",
+        "imageAlt": "Kusasenrigahama",
+        "description": "草千里濱位於熊本縣阿蘇地區，是一片海拔約 1,100 公尺的廣闊高地草原。此地坐落於古老的火山口內，擁有雨水匯聚而成的池塘，以及悠然吃草的馬匹；在此還能眺望正冒著煙的中岳。遊客可在此漫步賞景、體驗騎馬，欣賞隨季節更迭的風光——從夏季的翠綠盎然到冬季的白雪皚皚；週邊亦設有博物館與咖啡廳，供遊客造訪休憩。",
+        "googleMaps": "Google Maps",
+        "specialsTitle": "觀光景點",
+        "Muse": {
+          "title": "阿蘇火山博物館",
+          "walkFrom": "從新草千里步行約 3 分鐘",
+          "duration": "40 分鐘",
+          "imageAlt": "阿蘇火山博物館",
+          "description": "阿蘇火山博物館旨在探討阿蘇山巨大破火山口的地質與文化。館內提供中岳火山口的即時影像、多螢幕影片，以及巨大的火山口模型；即便因管製而無法親臨火山口，這裡依然是絕佳的參觀選擇。"
+        },
+        "Kishimadake": {
+          "title": "杵島岳",
+          "walkFrom": "從新草千里步行約 30 分鐘",
+          "duration": "15 分鐘",
+          "imageAlt": "Kishimadake",
+          "description": "杵島岳位於日本熊本縣的阿蘇山，是構成阿蘇五嶽的五座火山峰之一。遊客可從草千里草原出發，沿著一條景緻優美的鋪設階梯拾級而上；這段路程雖短，卻充滿樂趣，終點為海拔 1,326 公尺的山頂。從此處可將壯闊的全景盡收眼底，包括冒著煙霧的中岳火山口、米塚火山錐，以及廣闊的阿蘇破火山口。"
+        },
+        "Horse": {
+          "title": "阿蘇草千里馬術俱樂部",
+          "walkFrom": "從新草千里步行約 3 分鐘",
+          "duration": "10 分鐘",
+          "imageAlt": "阿蘇草千里馬術俱樂部",
+          "description": "在阿蘇山的草千里之濱，遊客可參加由專人帶領的騎馬體驗。這項活動非常適合初學者及家庭，讓您能漫遊於遼闊的火山草原，背後則是冒著煙的中岳。活動期間為 3 月至 11 月，騎乘途中可居高臨下，飽覽寧靜池塘、悠然吃草的馬匹，以及熊本這片經典火山口平原上壯麗的高原風光。"
+        }
+      },
+      "dinner": {
+        "title": "晚餐",
+        "name": "勝烈亭 Amu Plaza熊本",
+        "walkFrom": "從熊本站步行約 2 分鐘",
+        "busDuration": "25 分鐘",
+        "trainDuration": "1 小時 30 分鐘",
+        "changeStation": "阿蘇站",
+        "imageAlt": "Katsuretsu Tei Amu Plaza Kumamoto",
+        "description": "位於熊本站 Amu Plaza 的「勝烈亭」是一家享負盛名的炸豬排專門店。該店以酥脆鮮嫩的里肌豬排、腰內肉豬排以及特大炸蝦而聞名，提供道地的熊本風味美食，且交通極為便利，就在車站內。",
+        "descriptionNote": "※ 總店位於新市街，前往下通商店街購物時亦可順道造訪。",
+        "googleMaps": "Google Maps"
       }
+      
     },
     "spotsTitle": "必去景點與美食",
     "budgetTitle": "待辦事項",
